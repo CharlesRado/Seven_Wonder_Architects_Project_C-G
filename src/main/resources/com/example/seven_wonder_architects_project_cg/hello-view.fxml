@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="1080.0" prefWidth="1920.0" spacing="20.0" stylesheets="@CSS/Background.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.seven_wonder_architects_project_cg.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="1080.0" prefWidth="1900.0">
+      <children>
+          <Button layoutX="715.0" layoutY="497.0" onAction="#onPlayButtonClick" onMouseClicked="#exemplepourtoi" text="PLAY" textAlignment="CENTER" textFill="#ff3300">
+            <font>
+               <Font name="Rockwell Extra Bold" size="24.0" />
+            </font>
+         </Button>
+      </children>
+   </AnchorPane>
+</VBox>
